@@ -38,6 +38,7 @@
 # Repository klonen
 git clone https://github.com/yourusername/netguard.git
 cd netguard
+```
 
 # Abhängigkeiten installieren
 pip install requests
