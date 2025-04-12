@@ -1,3 +1,4 @@
+
 # NetGuard – Network Scanner & Analyzer
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)  
@@ -34,124 +35,160 @@
 
 ## 🛠️ Installation
 
+### Abhängigkeiten installieren
+
+Stelle sicher, dass du Python 3.6 oder höher installiert hast. Du kannst die erforderlichen Abhängigkeiten installieren, indem du folgendes ausführst:
+
 ```bash
-# Repository klonen
+pip install -r requirements.txt
+```
+
+Falls du die `requests`-Bibliothek für den Bandbreitentest benötigst:
+
+```bash
+pip install requests
+```
+
+### Repository klonen
+
+```bash
 git clone https://github.com/yourusername/netguard.git
 cd netguard
 ```
 
-# Abhängigkeiten installieren
-pip install requests
-💻 Verwendung
-bash
-Kopieren
-Bearbeiten
+---
+
+## 💻 Verwendung
+
+```bash
 python netguard.py
-Hauptfunktionen im Menü
-Aktive Geräte im Netzwerk entdecken
+```
 
-Offene Ports auf einem Zielsystem scannen
+### Hauptfunktionen im Menü
 
-Netzwerk-Latenz messen
+- Aktive Geräte im Netzwerk entdecken  
+- Offene Ports auf einem Zielsystem scannen  
+- Netzwerk-Latenz messen  
+- Sicherheitsbewertung eines Computers durchführen  
+- Bandbreitentest durchführen  
+- Netzwerkverbindung überwachen  
 
-Sicherheitsbewertung eines Computers durchführen
+---
 
-Bandbreitentest durchführen
+## 🔒 Sicherheitshinweise
 
-Netzwerkverbindung überwachen
+- Verwende das Tool **nur in Netzwerken**, für die du **ausdrücklich berechtigt** bist  
+- Portscans können von Sicherheitssystemen als verdächtiges Verhalten erkannt werden  
+- Einige Funktionen erfordern Administrator- oder Root-Rechte  
 
-🔒 Sicherheitshinweise
-Verwende das Tool nur in Netzwerken, für die du ausdrücklich berechtigt bist
+---
 
-Portscans können von Sicherheitssystemen als verdächtiges Verhalten erkannt werden
+## 🤝 Contributing
 
-Einige Funktionen erfordern Administrator- oder Root-Rechte
+Beiträge sind willkommen! Bitte lies vorher die [Contribution Guidelines](CONTRIBUTING.md).  
 
-🤝 Contributing
-Beiträge sind willkommen! Bitte lies vorher die Contribution Guidelines.
+---
 
-📝 Lizenz
-Dieses Projekt steht unter der MIT-Lizenz.
+## 📝 Lizenz
 
-✨ Feature-Details
-<details> <summary><strong>Netzwerkerkennung</strong></summary>
-Erkennt aktive Geräte im lokalen IPv4-Netz
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
 
-Multi-Threading für hohe Geschwindigkeit
+---
 
-</details> <details> <summary><strong>Portscanner</strong></summary>
-Konfigurierbare Portbereiche
+## ✨ Feature-Details
 
-Erkennt gängige Dienste
+<details>
+<summary><strong>Netzwerkerkennung</strong></summary>
 
-</details> <details> <summary><strong>Latenzmessung</strong></summary>
-Misst min./max./durchschn. Ping
-
-Verbindungsqualität wird analysiert
-
-</details> <details> <summary><strong>Sicherheitsanalyse</strong></summary>
-Erkennt unsichere Dienste
-
-Gibt Empfehlungen zur Absicherung
-
-</details> <details> <summary><strong>Bandbreitentest</strong></summary>
-Testet Downloadgeschwindigkeit mit verschiedenen Quellen
-
-Durchschnittsbandbreite wird berechnet
-
-</details> <details> <summary><strong>Netzwerküberwachung</strong></summary>
-Echtzeitverbindungsüberwachung
-
-Erkennung von Ausfällen und Paketverlusten
+- Erkennt aktive Geräte im lokalen IPv4-Netz  
+- Multi-Threading für hohe Geschwindigkeit  
 
 </details>
-🔧 Technische Details
-Geschrieben in Python 3
 
-Verwendung von nativen Sockets
+<details>
+<summary><strong>Portscanner</strong></summary>
 
-Plattformunabhängig (Windows, Linux, macOS)
+- Konfigurierbare Portbereiche  
+- Erkennt gängige Dienste  
 
-Multi-Threading für bessere Performance
+</details>
 
-Fehlertolerante Ausführung
+<details>
+<summary><strong>Latenzmessung</strong></summary>
 
-Farbige Konsolenausgabe
+- Misst min./max./durchschn. Ping  
+- Verbindungsqualität wird analysiert  
 
-📊 Performance
-Schnelle Netzwerkscans durch parallele Threads
+</details>
 
-Optimierte Portscans
+<details>
+<summary><strong>Sicherheitsanalyse</strong></summary>
 
-Geringe CPU-Auslastung
+- Erkennt unsichere Dienste  
+- Gibt Empfehlungen zur Absicherung  
 
-🎨 Benutzeroberfläche
-Farbige Ausgabe für bessere Lesbarkeit
+</details>
 
-Übersichtlich gestaltetes Hauptmenü
+<details>
+<summary><strong>Bandbreitentest</strong></summary>
 
-Fortschrittsanzeigen
+- Testet Downloadgeschwindigkeit mit verschiedenen Quellen  
+- Durchschnittsbandbreite wird berechnet  
 
-Klare Benutzerführung
+</details>
 
-📈 Zukunftspläne
-🖥️ GUI-Version (grafische Oberfläche)
+<details>
+<summary><strong>Netzwerküberwachung</strong></summary>
 
-🔍 Erweiterte Sicherheitsprüfungen
+- Echtzeitverbindungsüberwachung  
+- Erkennung von Ausfällen und Paketverlusten  
 
-📡 Netzwerkverkehrsanalyse
+</details>
 
-📄 Automatische Berichte
+---
 
-🔄 Kontinuierliches Monitoring
+## 🔧 Technische Details
 
-🔌 API-Integration
+- Geschrieben in Python 3  
+- Verwendung von nativen Sockets  
+- Plattformunabhängig (Windows, Linux, macOS)  
+- Multi-Threading für bessere Performance  
+- Fehlertolerante Ausführung  
+- Farbige Konsolenausgabe  
 
-💡 Tipps für den Einsatz
-Regelmäßige Netzwerkscans durchführen
+---
 
-Sicherheitsergebnisse dokumentieren
+## 📊 Performance
 
-Bandbreitentests zu verschiedenen Tageszeiten ausführen
+- Schnelle Netzwerkscans durch parallele Threads  
+- Optimierte Portscans  
+- Geringe CPU-Auslastung  
 
-Ergebnisse speichern und vergleichen
+---
+
+## 🎨 Benutzeroberfläche
+
+- Farbige Ausgabe für bessere Lesbarkeit  
+- Übersichtlich gestaltetes Hauptmenü  
+- Fortschrittsanzeigen  
+- Klare Benutzerführung  
+
+---
+
+## 📈 Zukunftspläne
+
+- 🖥️ GUI-Version (grafische Oberfläche)  
+- 🔍 Erweiterte Sicherheitsprüfungen  
+- 📡 Netzwerkverkehrsanalyse  
+- 📄 Automatische Berichte  
+- 🔄 Kontinuierliches Monitoring  
+- 🔌 API-Integration  
+
+---
+
+## 💡 Tipps für den Einsatz
+
+- Regelmäßige Netzwerkscans durchführen  
+- Sicherheitsergebnisse dokumentieren  
+- Bandbreitentests zu verschiedenen Tageszeiten ausführen  
+- Ergebnisse speichern und vergleichen
