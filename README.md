@@ -52,7 +52,7 @@ pip install requests
 ### Repository klonen
 
 ```bash
-git clone https://github.com/yourusername/netguard.git
+git clone https://github.com/corehub-lol/netguard.git
 cd netguard
 ```
 
