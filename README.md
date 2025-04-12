@@ -41,4 +41,116 @@ cd netguard
 
 # Abhängigkeiten installieren
 pip install requests
-v
+💻 Verwendung
+bash
+Kopieren
+Bearbeiten
+python netguard.py
+Hauptfunktionen im Menü
+Aktive Geräte im Netzwerk entdecken
+
+Offene Ports auf einem Zielsystem scannen
+
+Netzwerk-Latenz messen
+
+Sicherheitsbewertung eines Computers durchführen
+
+Bandbreitentest durchführen
+
+Netzwerkverbindung überwachen
+
+🔒 Sicherheitshinweise
+Verwende das Tool nur in Netzwerken, für die du ausdrücklich berechtigt bist
+
+Portscans können von Sicherheitssystemen als verdächtiges Verhalten erkannt werden
+
+Einige Funktionen erfordern Administrator- oder Root-Rechte
+
+🤝 Contributing
+Beiträge sind willkommen! Bitte lies vorher die Contribution Guidelines.
+
+📝 Lizenz
+Dieses Projekt steht unter der MIT-Lizenz.
+
+✨ Feature-Details
+<details> <summary><strong>Netzwerkerkennung</strong></summary>
+Erkennt aktive Geräte im lokalen IPv4-Netz
+
+Multi-Threading für hohe Geschwindigkeit
+
+</details> <details> <summary><strong>Portscanner</strong></summary>
+Konfigurierbare Portbereiche
+
+Erkennt gängige Dienste
+
+</details> <details> <summary><strong>Latenzmessung</strong></summary>
+Misst min./max./durchschn. Ping
+
+Verbindungsqualität wird analysiert
+
+</details> <details> <summary><strong>Sicherheitsanalyse</strong></summary>
+Erkennt unsichere Dienste
+
+Gibt Empfehlungen zur Absicherung
+
+</details> <details> <summary><strong>Bandbreitentest</strong></summary>
+Testet Downloadgeschwindigkeit mit verschiedenen Quellen
+
+Durchschnittsbandbreite wird berechnet
+
+</details> <details> <summary><strong>Netzwerküberwachung</strong></summary>
+Echtzeitverbindungsüberwachung
+
+Erkennung von Ausfällen und Paketverlusten
+
+</details>
+🔧 Technische Details
+Geschrieben in Python 3
+
+Verwendung von nativen Sockets
+
+Plattformunabhängig (Windows, Linux, macOS)
+
+Multi-Threading für bessere Performance
+
+Fehlertolerante Ausführung
+
+Farbige Konsolenausgabe
+
+📊 Performance
+Schnelle Netzwerkscans durch parallele Threads
+
+Optimierte Portscans
+
+Geringe CPU-Auslastung
+
+🎨 Benutzeroberfläche
+Farbige Ausgabe für bessere Lesbarkeit
+
+Übersichtlich gestaltetes Hauptmenü
+
+Fortschrittsanzeigen
+
+Klare Benutzerführung
+
+📈 Zukunftspläne
+🖥️ GUI-Version (grafische Oberfläche)
+
+🔍 Erweiterte Sicherheitsprüfungen
+
+📡 Netzwerkverkehrsanalyse
+
+📄 Automatische Berichte
+
+🔄 Kontinuierliches Monitoring
+
+🔌 API-Integration
+
+💡 Tipps für den Einsatz
+Regelmäßige Netzwerkscans durchführen
+
+Sicherheitsergebnisse dokumentieren
+
+Bandbreitentests zu verschiedenen Tageszeiten ausführen
+
+Ergebnisse speichern und vergleichen
